@@ -1,3 +1,14 @@
+# ENV Install by Shawn
+```
+conda create --name openpcdet python=3.9
+conda activate openpcdet
+conda install pytorch==1.10.0 torchvision==0.11.0 torchaudio==0.10.0 cudatoolkit=11.3 -c pytorch -c conda-forge
+pip install spconv-cu113
+# In the OpenPCDet Path
+python setup.py develop
+```
+
+
 <img src="docs/open_mmlab.png" align="right" width="30%">
 
 # OpenPCDet
